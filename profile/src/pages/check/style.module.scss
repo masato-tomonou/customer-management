@@ -1,0 +1,45 @@
+.checkWrap {
+  background-color: #1b2137;
+  height: 100vh;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.h1style {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+.checkTableWrap {
+  color: #fff;
+  width: 90vw;
+  margin: 10rem auto;
+  th {
+    height: 3rem;
+    font-size: 1.4rem;
+    text-align: left;
+    width: 40%;
+    .next {
+      // background-color: #ff9500;
+      background-color: #fff;
+    }
+
+    .back {
+      background-color: #0469ff;
+    }
+  }
+  td {
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+  .registerButton {
+    width: 40%;
+    padding: 10rem 2rem 0 2rem;
+    font-weight: bold;
+  }
+  .registerBackButton {
+    width: 30%;
+    padding: 10rem 2rem 0 2rem;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,73 @@
+.button {
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 23px;
+  width: 100%;
+  text-align: center;
+  // ボタン無効化
+  &:disabled {
+    background-color: #acaca8;
+    color: #fff;
+    cursor: not-allowed;
+  }
+}
+.next {
+  background-color: #ff9500;
+}
+.register {
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 23px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  height: 4rem;
+  background: #866635;
+  background: -moz-linear-gradient(#fad393 0%, #ae8c56 65%, #866635 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fad393),
+    color-stop(65%, #ae8c56),
+    to(#866635)
+  );
+  background: -webkit-linear-gradient(#fad393 0%, #ae8c56 65%, #866635 100%);
+  background: -o-linear-gradient(#fad393 0%, #ae8c56 65%, #866635 100%);
+  background: linear-gradient(#fad393 0%, #ae8c56 65%, #866635 100%);
+}
+.registerBack {
+  color: #fff;
+  cursor: pointer;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 23px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  height: 4rem;
+  background: #a9a9a9; /* 鈍いシルバーの明るい色 */
+  background: -moz-linear-gradient(#bebebe 0%, #a9a9a9 65%, #808080 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#bebebe),
+    color-stop(65%, #a9a9a9),
+    to(#808080)
+  );
+  background: -webkit-linear-gradient(#bebebe 0%, #a9a9a9 65%, #808080 100%);
+  background: -o-linear-gradient(#bebebe 0%, #a9a9a9 65%, #808080 100%);
+  background: linear-gradient(#bebebe 0%, #a9a9a9 65%, #808080 100%);
+}
+.back {
+  background-color: #0469ff;
+}
+
+.delete {
+  background-color: #f21b1b;
+}

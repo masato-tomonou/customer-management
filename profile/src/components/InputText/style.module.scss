@@ -1,0 +1,33 @@
+.label {
+  display: block;
+  font-weight: bold;
+}
+.input {
+  font-weight: normal;
+  padding: 10px;
+  border: 1px solid #c6c6c6;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+// style.module.scss
+
+// .label {
+//   display: block;
+//   font-weight: bold;
+//   text-align: center;
+// }
+
+// .input {
+//   font-weight: normal;
+//   padding: 10px;
+//   border: 1px solid #ccc;
+//   border-radius: 4px;
+//   font-size: 16px;
+//   width: 90%;
+//   margin-bottom: 10px;  // 追加：余白を追加して見やすくする
+// }
+
+// // 他のスタイルはそのまま

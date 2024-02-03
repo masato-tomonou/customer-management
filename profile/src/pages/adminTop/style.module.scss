@@ -1,0 +1,96 @@
+@import "reset-css";
+.box {
+  width: 80%;
+  margin: auto;
+}
+.table {
+  font-size: large;
+  width: 100%;
+}
+.th {
+  border: solid 3px;
+  width: calc(100% / 6);
+}
+.td {
+  border: solid 2px;
+  text-align: center;
+  padding: 5px;
+}
+
+.h1style {
+  margin-top: 7rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.loginStaffId {
+  padding-top: 1rem;
+  text-align: right;
+  font-size: 1.4rem;
+}
+.h2style {
+  margin-top: 5rem;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.searchFormWrap {
+  display: flex;
+  margin-bottom: 4rem;
+  justify-content: space-between;
+  background-color: #f8f8da;
+  padding: 3rem 1rem;
+  label {
+    font-size: 1.6rem;
+  }
+  button {
+    width: 30%;
+    font-weight: bold;
+  }
+  div {
+    width: 65%;
+  }
+}
+.adminTopH3 {
+  font-size: 2rem;
+}
+.adminTopTable {
+  width: 100%;
+  td {
+    font-size: 1.6rem;
+    border: 1px solid black;
+  }
+
+  .adminTopTh {
+    border: 2px black solid;
+    font-size: 1.6rem;
+    padding: 1rem 0;
+  }
+  p {
+    font-size: 2rem;
+  }
+  .adminTopTdId {
+    padding: 1rem;
+    text-align: right;
+  }
+  .adminTopTdName {
+    padding: 1rem;
+    text-align: left;
+  }
+  .adminTopTdPhone {
+    padding: 1rem;
+    text-align: right;
+  }
+  .adminTopTdDate {
+    padding: 1rem;
+    text-align: center;
+  }
+  .adminTopTdLink {
+    padding: 1rem;
+    text-align: center;
+  }
+}
+.backTop {
+  margin-top: 2rem;
+  width: 10%;
+  font-weight: bold;
+}

@@ -1,0 +1,184 @@
+// @import "reset-css";
+
+// // style.module.scss
+.box1 {
+  p {
+    font-size: 1.3rem;
+    color: #e7cb97;
+  }
+  font-family: "Noto Sans JP", sans-serif;
+
+  background-color: #1b2137;
+  height: 115vh;
+  div {
+    input {
+      margin-top: 0.5rem;
+      background-color: #424a67;
+      border: none;
+      color: #fff;
+    }
+    label {
+      margin-top: 1.5rem;
+
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+  }
+
+  color: #fff;
+}
+.registerWrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.h1style {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+.nameWrap {
+  display: flex;
+
+  div {
+    margin-right: 3rem;
+    width: 100%;
+  }
+}
+
+.inputLast {
+  width: 90%;
+  //   margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  div {
+    width: 30%;
+    input {
+      margin-right: 5rem;
+      //   margin-left: 3rem;
+    }
+  }
+  width: 100%;
+}
+input[type="text"]:focus {
+  outline: solid 2px #b4925a;
+}
+input[type="date"]:focus {
+  outline: solid 2px #b4925a;
+}
+input[type="email"]:focus {
+  outline: solid 2px #b4925a;
+}
+input[type="number"]:focus {
+  outline: solid 2px #b4925a;
+}
+.zipcodeWrap {
+  display: flex;
+  align-items: center;
+
+  div {
+    width: 85%;
+  }
+
+  button {
+    margin-top: 3rem;
+    height: 5rem;
+    width: 45%;
+  }
+}
+.inputGroup {
+}
+.selectbox {
+  margin-top: 2rem;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+.selectbox::after {
+  position: absolute;
+  right: 15px;
+  width: 10px;
+  height: 7px;
+  background-color: #535353;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  content: "";
+  pointer-events: none;
+}
+
+.selectbox select {
+  margin-left: 2rem;
+  appearance: none;
+  min-width: 230px;
+  height: 2.8em;
+  padding: 0.4em calc(0.8em + 30px) 0.4em 0.8em;
+  border: none;
+  border-bottom: 3px solid #2d3348;
+  background-color: #424a67;
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.selectbox select:focus {
+  outline: none;
+}
+.nextButton {
+  margin: 3rem auto;
+  width: 40%;
+
+  //   button {
+  //     background: #866635;
+  //     background: -moz-linear-gradient(#fad393 0%, #ae8c56 65%, #866635 100%);
+  //     background: -webkit-gradient(
+  //       linear,
+  //       left top,
+  //       left bottom,
+  //       from(#fad393),
+  //       color-stop(65%, #ae8c56),
+  //       to(#866635)
+  //     );
+  //     background: -webkit-linear-gradient(#fad393 0%, #ae8c56 65%, #866635 100%);
+  //     background: -o-linear-gradient(#fad393 0%, #ae8c56 65%, #866635 100%);
+  //     background: linear-gradient(#fad393 0%, #ae8c56 65%, #866635 100%);
+  //     color: #fff;
+  //     cursor: pointer;
+  //     padding: 1rem 1rem;
+  //     border: none;
+  //     border-radius: 23px;
+  //     width: 100%;
+  //     text-align: center;
+  //     font-weight: bold;
+  height: 4rem;
+  // ボタン無効化
+  // &:disabled {
+  //   background-color: #acaca8;
+  //   color: #fff;
+  //   cursor: not-allowed;
+  // }
+}
+//   *{
+//     flex: 1;
+//     width: calc(100% - 22px);
+//   }
+//   div{
+//     width: 100%;
+//   }
+// }
+// .inputWidth{
+//   width: calc(100% - 22px);
+// }
+
+/* 他のスタイルはそのまま */
+// @media only screen and (min-width: 768px) and (max-width: 1024px) {
+//   .box1 {
+//     width: 702px; /* 画面幅の80%に調整 */
+//     margin: 0 auto; /* 中央寄せ */
+//     font-size: 25px;
+//   }
+//   .inputWidth {
+//     width: 678px;
+//   }
+// }

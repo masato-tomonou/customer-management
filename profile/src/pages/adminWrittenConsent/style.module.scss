@@ -1,0 +1,260 @@
+html {
+  font-size: 62.5%;
+}
+.writtenConsentWrap {
+  width: 90vw;
+  margin: 0 auto;
+}
+.consentTitle {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.consentH2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.consentUl {
+  li {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  li:last-child {
+    margin-bottom: 1rem;
+  }
+}
+.buyConsent {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.consentCheckWrap {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square {
+  border: 2px solid black;
+  width: 15px;
+  height: 15px;
+}
+.consentP {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.customerConsentTableTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.customerConsentTable {
+  width: 100%;
+  border: 3px black solid;
+  th {
+    text-align: left;
+    font-size: 1.4rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-bottom: 2px rgb(255, 255, 255) solid;
+    padding: 0.5rem;
+  }
+  td {
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+  }
+}
+.customerConsentTitle {
+  background-color: white !important;
+  color: black !important;
+  padding: 2rem 1rem 1rem 1rem !important;
+  //   text-align: center;
+  width: 2rem;
+  font-size: 1.8rem !important;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+.jobCheckWrap {
+  display: flex;
+  .square {
+    margin-left: 1rem;
+    width: 13px;
+    height: 13px;
+  }
+  border-bottom: none !important;
+}
+.customerConsentFurigana {
+  height: 15px;
+}
+.customerConsentName {
+  height: 30px;
+}
+.customerConsentAddress {
+  height: 60px;
+}
+.customerConsentPhone {
+  height: 30px;
+}
+.customerConsentBirth {
+  height: 25px;
+}
+.customerGuardianTitle {
+  background-color: white !important;
+  color: black !important;
+  width: 6rem;
+}
+.customerGuardianName {
+  width: 7rem;
+}
+.customerGuardianNameIn {
+  position: absolute;
+  font-size: 2rem;
+  right: 2rem;
+  bottom: 1.5rem;
+}
+.customerGuardianNameTd {
+  position: relative;
+  width: 55rem;
+  height: 5rem;
+}
+.customerGuardianAge {
+  width: 3rem;
+}
+.customerGuardianAgeTd {
+  width: 10rem;
+}
+.customerGuardianRelationship {
+  width: 3rem;
+}
+.customerGuardianRelationshipTd {
+  width: 10rem;
+}
+.staffTable {
+  margin-top: 2rem;
+}
+.documentCheckWrap {
+  display: flex;
+  height: 3.5rem;
+  .square {
+    margin-left: 1rem;
+    width: 13px;
+    height: 13px;
+  }
+}
+.signTable {
+  width: 100%;
+  border: 3px solid black;
+  th {
+    // margin-top: 1rem;
+    padding-top: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 20%;
+    height: 3rem;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+  }
+  td {
+    padding: 1rem;
+    border-bottom: 2px solid black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    span {
+      text-align: center !important;
+    }
+  }
+}
+.documentTitle {
+  height: 3.5rem;
+  margin: 0;
+  padding: 0 !important;
+}
+
+.guardianContact {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border-bottom: none !important;
+}
+.guardianName {
+  margin-left: 30rem;
+}
+
+.customerConsentYear {
+  margin-right: 7rem;
+}
+.customerConsentSeireki {
+  margin-left: 1rem;
+  margin-right: 3rem;
+}
+.checkItem {
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  transform: translateY(-0.5rem) rotate(-40deg);
+  width: 15px;
+  height: 10px;
+}
+@media print {
+}
+/* print setting */
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    top: 1rem !important;
+    margin: auto;
+    width: 200mm !important;
+    height: 290mm !important;
+  }
+  .customerFontsizeName {
+    font-size: 3.5rem !important;
+    font-weight: bold;
+  }
+  .customerFontsize {
+    font-weight: bold;
+    font-size: 2.2rem !important;
+  }
+  .checkItem {
+    font-size: 4rem !important;
+    font-weight: bold;
+  }
+  /* テキストが親要素を超えた場合にはみ出さないようにする */
+  .overflow_hidden {
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 2.2rem !important;
+  }
+
+  /* テキストが親要素を超えた場合にはみ出る部分を非表示にし、折り返す */
+  .overflow-wrap {
+    overflow: hidden;
+    white-space: nowrap; /* テキストを折り返さずに非表示にする */
+    overflow-wrap: break-word; /* テキストを折り返す */
+  }
+
+  .noPrint {
+    display: none;
+  }
+}
+.staffUi {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 4rem;
+  button {
+    width: 30%;
+    font-weight: bold;
+  }
+}
+.customerConsentTitleNeo {
+  background-color: white !important;
+  color: black !important;
+}
+.guardianTel {
+  font-size: 2rem;
+}
